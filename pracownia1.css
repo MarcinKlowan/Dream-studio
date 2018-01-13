@@ -1,0 +1,148 @@
+body {
+    background: url(body.jpg);
+    background-position-x: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding-top: 5%;
+}
+
+.first {
+    position: relative;
+    display: inline-block;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.wordfirst {
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.mnie {
+    font-family: 'Courgette', cursive;
+    color: white;
+    padding: 15%;
+}
+
+.description {
+    text-align: center;
+}
+
+.sentence {
+    font-family: 'Courgette', cursive;
+    color:white;
+    font-size: 20px;
+   
+}
+
+.sentencecontact {
+    font-family: 'Courgette', cursive;
+    color: rgb(20, 19, 20);
+    padding-top: 5%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+.facebook {
+    color: #495496;
+}
+.imgadres {
+    width: 100%;
+    min-height: 300px;
+    background-image: url('adres.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.word1 {
+        color: white;
+        font-family: 'Courgette', cursive;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.picture {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 3px; 
+    opacity: 0.5;
+}
+
+.picture:focus {
+    opacity: 1;
+    transition: 0.3s all linear;
+    transform: scale(3.3) translate(-230px, 20px);
+    z-index: 1;
+    outline: 0;
+}
+
+.mapa {
+    padding-top: 5%;
+}
+
+.footer {
+    padding-top: 2%;
+    text-align: center;
+}
+@media (max-width: 477px) {
+    .wordfirst {
+        font-size: 60px;
+    }
+
+    .first {
+       
+        font-size: 15px;
+       
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .sentencecontact {
+        color: white;
+    }
+}
+
+@media (min-width: 478px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media  (max-width: 1439px) and (min-width:768px) {
+.picture:focus {
+    transform: scale(3.3) translate(-100px, 20px);
+}
+
+}
+
+@media (min-width: 1024px) {
+    .mnie {
+        font-family: 'Courgette', cursive;
+        color: black;
+    }
+
+    .sentence {
+        color: black;
+    }
+
+    body {
+        background-size: cover;
+    }
+}
